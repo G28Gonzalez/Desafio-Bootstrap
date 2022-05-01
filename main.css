@@ -1,0 +1,35 @@
+html{
+    background-color: #faaeba;
+}
+
+header {
+    background-color: #faaeba
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-family: 'Water Brush', cursive;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #faaeba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
