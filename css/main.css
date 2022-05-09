@@ -1,0 +1,504 @@
+/* Estilos para todos los html */
+html {
+    background-color: #faaeba;
+}
+
+body {
+    margin: 0px;
+    background-color: #faaeba;
+}
+
+header {
+    background-color: #faaeba;
+}
+
+main {
+    background-color: #faaeba;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-family: 'Water Brush', cursive;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.navbar {
+    display: grid;
+    justify-content: flex-end;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 0px;
+}
+
+li:hover {
+    padding: 0px 5px;
+    background-color: #2521fc98;
+}
+
+.nav-item:hover {
+    color: white;
+    transition: all 1.5s;
+}
+
+footer {
+    background-color: #faaeba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+strong {
+    font-size: x-small;
+}
+
+.color-footer {
+    color: black;
+}
+
+.grilla {
+    display: grid;
+    grid-template-areas:"header"
+    "nav"
+    "main"
+    "footer";
+}
+
+   /* Index */
+.index-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Reserva */
+.semana {
+    padding-top: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+    border: 1px solid #ffffff;
+    justify-items: center;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rosybrown;
+}
+
+.reserva {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.diseno-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    background-color: rosybrown;
+}
+
+.enviar{
+    margin: 10px;
+}
+
+/* Portfolio */
+.carousel {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 20%;
+}
+
+.carousel-control-prev {
+    margin-top: 20px;
+}
+
+.carousel-control-next {
+    margin-top: 20px;
+}
+
+.d-block {
+    width: 100%;
+    max-height: 17rem;
+}
+
+/* Lugar */
+.completo-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.lugar-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.lugar-img { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.simbolo-ubi{
+    display: flex;
+    padding-top: 10px;
+}
+
+.ubi {
+    text-decoration: underline;
+}
+
+.img1l {
+    height: 200px;
+    width: auto;
+    margin: 4px;
+}
+
+.img2l {
+    height: 200px;
+    width: auto;
+    margin: 3px;
+}
+
+.img3l {
+    height: 200px;
+    width: auto;
+    margin: 3px;
+}
+
+.img4l {
+    height: 200px;
+    width: auto;
+    margin: 4px;
+}
+
+/* Contacto */
+.contacto-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+span {
+    text-decoration: 2px underline;
+}
+
+.instagram {
+    border: 2px solid white;
+    padding: 0px 94px 15px;
+    margin-bottom: 5px;
+    background-color: #bc8f8f;
+}
+
+.whatsapp {
+    border: 2px solid white;
+    padding: 0px 94px 15px;
+    background-color: #bc8f8f;
+}
+
+.color-href {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.redes {
+    display: block;
+}
+
+.contactar {
+    background-color: rosybrown;
+    border: 2px solid #ffffff;
+    padding: 10px 37px;
+    margin-top: 10px;
+}
+.ingreso{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.contacto1 {
+    display: contents;
+    margin: 10px;
+    padding: 0px 0px;
+}
+
+.contacto2 {
+    display: contents;
+    margin: 10px;
+    padding: 0px 0px;
+}
+
+.contacto3 {
+    display: contents;
+    margin: 10px;
+}
+
+.contacto {
+    margin: 10px;
+}
+
+.textarea-height {
+    height: 195px;
+}
+
+
+.titulocontacto {
+    text-decoration: underline;
+}
+
+/* Vista en Mobile 320px */
+
+/* Index */
+@media screen and (min-width: 320px) {
+    .index-img {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+}
+
+/* Portfolio */
+@media screen and (min-width: 320px) {
+    .carousel-inner {
+        width: 50%;
+    }
+
+    .d-block {
+        max-height: 11rem;
+    }
+}
+
+
+/* Reserva */
+@media screen and (min-width: 320px) {
+    .grid {
+        column-gap: 0.1rem;
+        row-gap: 0.1rem;
+        font-size: 14px;
+        margin: 5px;
+        padding: 5px;
+    
+    }
+
+    .semana {
+        margin: 5px 0px;
+    }
+
+    .diseno-img{
+        margin-top: 10px;
+        padding: 5px;
+    }
+}
+
+/* Lugar */
+@media screen and (min-width: 320px) {
+    .completo-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lugar-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lugar-img {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .mapa {
+        width: 290px;
+        height: 175px;
+        margin-top: 10px;
+    }
+
+    .ubi {
+        font-size: medium;
+    }
+
+    .lugar-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+/* Contacto */
+@media screen and (min-width: 320px) {
+    
+    .contacto-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactar {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: flex-end;
+    }
+
+    .redes {
+        padding-top: 5px;
+    }
+
+    .contacto3 {
+        text-align: center;
+    }
+}
+
+/* Vista mobile 425px */
+
+/* Lugar */
+@media screen and (min-width: 425px) {
+    .mapa {
+        width: 360px;
+        height: 185px;
+    }
+}
+
+
+/* Vista en Tablet 768px */
+
+/* Index */
+@media screen and (min-width: 768px) {
+    .index-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Portfolio */
+@media screen and (min-width: 320px) {
+    .carousel-inner {
+        width: 25%;
+    }
+
+    .d-block {
+        max-height: 12rem;
+    }
+}
+
+/* Reserva */
+@media screen and (min-width: 768px) {
+    .grid {
+        column-gap: 0.5rem;
+        row-gap: 0.2rem;
+    }
+}
+
+/* Lugar */
+@media screen and (min-width: 768px) {
+    .mapa {
+        width: 490px;
+        height: 175px;
+    }
+}
+
+/* Vista en Laptop 1024px */
+
+/* Index */
+@media screen and (min-width: 1024px) {
+    .index-img {
+        margin-top: 0px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Portfolio */
+@media screen and (min-width: 320px) {
+    .carousel-inner {
+        width: 20%;
+    }
+
+    .d-block {
+        max-height: 17rem;
+    }
+}
+
+
+/* Reserva */
+@media screen and (min-width: 1024px) {
+    .grid {
+        column-gap: 0.8rem;
+        row-gap: 0.3;
+        font-size: 18px;
+    }
+
+    .diseno-img{
+        margin-top: 10px;
+        padding: 5px 10px;
+    }
+}
+
+/* Lugar */
+@media screen and (min-width: 1024px) {
+    .completo-main {
+        flex-direction: row;
+    }
+
+    .lugar-main {
+        flex-direction: column;
+    }
+
+    .lugar-img {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .mapa {
+        width: 550px;
+        height: 320px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .ubi {
+        font-size: x-large;
+    }
+}
+
+/* Contacto */
+@media screen and (min-width: 1024px) {
+    .contacto-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .redes {
+        display: block;
+    }
+
+    .whatsapp {
+        margin-top: 20px;
+    }
+}
